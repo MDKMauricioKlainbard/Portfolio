@@ -1,4 +1,5 @@
 import styles from './NavItem.module.css'
+import React from 'react'
 
 export default function NavItem({ Icon, span }) {
     return (

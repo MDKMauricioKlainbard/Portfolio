@@ -4,6 +4,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import BoyIcon from '@mui/icons-material/Boy';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import NavItem from '../../components/NavItems/NavItem';
+import React from 'react';
 
 export default function NavBar() {
     return (
