@@ -9,6 +9,11 @@ export default function Landing() {
                 <NavBar/>
             </header>
             <main className={styles.main}>
+                <section className={styles.slider}>
+                    <div className={styles.photos}>
+
+                    </div>
+                </section>
             </main>
             <footer className={styles.footer}>
             </footer>

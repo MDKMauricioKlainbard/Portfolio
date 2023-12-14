@@ -16,9 +16,6 @@ export default function NavBar() {
                     <NavItem Icon={BoyIcon} span={'About Me'}/>
                     <NavItem Icon={ConnectWithoutContactIcon} span={'Contact Me'}/>
                 </ul>
-                <span className={styles.name}>
-                    Klainbard Mauricio Daniel
-                </span>
             </nav>
         </>
     )
