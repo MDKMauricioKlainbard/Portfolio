@@ -1,0 +1,50 @@
+{
+  "hash": "b4fac7be",
+  "browserHash": "59662224",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "99ba4c10",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a0676725",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Home": {
+      "src": "../../node_modules/@mui/icons-material/Home.js",
+      "file": "@mui_icons-material_Home.js",
+      "fileHash": "ee58c53b",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Work": {
+      "src": "../../node_modules/@mui/icons-material/Work.js",
+      "file": "@mui_icons-material_Work.js",
+      "fileHash": "bc8e26c2",
+      "needsInterop": true
+    },
+    "@mui/icons-material/Boy": {
+      "src": "../../node_modules/@mui/icons-material/Boy.js",
+      "file": "@mui_icons-material_Boy.js",
+      "fileHash": "e70aa69e",
+      "needsInterop": true
+    },
+    "@mui/icons-material/ConnectWithoutContact": {
+      "src": "../../node_modules/@mui/icons-material/ConnectWithoutContact.js",
+      "file": "@mui_icons-material_ConnectWithoutContact.js",
+      "fileHash": "b505d5bd",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-POQXPWI5": {
+      "file": "chunk-POQXPWI5.js"
+    },
+    "chunk-W4VDMLRG": {
+      "file": "chunk-W4VDMLRG.js"
+    }
+  }
+}
