@@ -1,14 +1,19 @@
 @font-face {
-  font-family: Roboto;
-  src: url(../public/Roboto-Light.ttf);
+  font-family: Roboto-Light;
+  src: url(/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/Roboto-Regular.ttf);
 }
 
 body {
   width: 100vw;
   height: 100vh;
   margin: 0px;
-  padding: 0px;
-  font-family: Roboto;
+  padding: 0px; 
+  overflow-x: hidden
 }
 
 

@@ -1,0 +1,57 @@
+.card {
+    width: 50%;
+    padding-left: 140px;
+    animation-name: revealCard;
+    animation-duration: 2s;
+}
+
+.writer {
+    width: fit-content;
+}
+
+.fullstack {
+    width: 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    border-right: 2px solid #333;
+    animation-name: writeText;
+    animation-duration: 1s;
+    animation-timing-function: steps(40, end);
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.photoContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 400px;
+}
+
+@keyframes writeText {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes revealCard {
+    0% {
+        transform: translate(40px, -40px);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(40px, 0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0px, 0px)
+    }
+}

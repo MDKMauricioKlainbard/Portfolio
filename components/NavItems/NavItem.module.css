@@ -6,14 +6,20 @@
     animation-duration: 800ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    transition: color 0.5s ease-in-out;
 }
 
 .li:hover {
     cursor: pointer;
+    color: #1329A7
 }
 
+.active {
+    color: #1329A7
+}
 
 .span {
+    color: #000;
     margin-left: 8px;
     position: relative;
 }
