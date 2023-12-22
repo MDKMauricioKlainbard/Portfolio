@@ -16,5 +16,28 @@ body {
   overflow-x: hidden
 }
 
+.carousel-root {
+  width: 1200px;
+  height: 741px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.carousel-slider {
+  height: 100%;
+}
+
+.slider-wrapper {
+  height: 100%;
+}
+
+.slider {
+  height: 100%;
+}
+
+
 
 

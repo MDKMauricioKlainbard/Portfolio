@@ -11,6 +11,8 @@ export default function NavItem({ Icon, span, name, setPage, activeItem, setActi
         }
         updatedPageState[name] = true;
         setPage(updatedPageState)
+        localStorage.setItem('pageState', JSON.stringify(updatedPageState))
+        localStorage.setItem('currentPage', name)
         setActiveItem(name)
     }
     return (

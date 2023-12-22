@@ -6,12 +6,10 @@
     animation-duration: 800ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    transition: color 0.5s ease-in-out;
 }
 
 .li:hover {
     cursor: pointer;
-    color: #1329A7
 }
 
 .active {

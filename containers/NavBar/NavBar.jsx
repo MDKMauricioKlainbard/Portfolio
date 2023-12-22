@@ -8,7 +8,10 @@ import React from 'react';
 import { useState } from 'react';
 
 export default function NavBar({ setPage }) {
-    const [activeItem, setActiveItem] = useState('home')
+    const [activeItem, setActiveItem] = useState(() => {
+        const currentPageStored = localStorage.getItem('currentPage')
+        return currentPageStored ? currentPageStored : 'home'
+    })
     return (
         <>
             <nav className={styles.nav}>

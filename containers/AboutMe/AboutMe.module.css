@@ -1,0 +1,44 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+    animation-name: reveal;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+}
+
+.divText {
+    font-size: 20px;
+    width: 40%;
+}
+
+.gif {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: .8s;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg); 
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
