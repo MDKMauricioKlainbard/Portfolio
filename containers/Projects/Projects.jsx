@@ -2,6 +2,7 @@ import styles from './Projects.module.css'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import RickAndMorty from '/RickAndMorty.png'
+import Tykkera from '/Tykkera.png';
 import Slide from '../../components/Slide/Slide'
 
 export default function Projects() {
@@ -20,9 +21,10 @@ export default function Projects() {
     return (
         <>
             <div className={styles.carouselContainer}>
-                <span>Top 3 Projects</span>
+                <span>Top Projects</span>
                 <Carousel {...carouselSettings}>
                     <Slide image={RickAndMorty} url={'https://tykkera.com'}/>
+                    <Slide image={Tykkera} url={'https://tykkera.com'}/>
                 </Carousel>
             </div>
         </>
